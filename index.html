@@ -13,7 +13,7 @@
     <header>
         <h1>Welcome to JavaScript Worlds</h1>
     </header>
-    <main>
+    <main id="main-container">
         <section>
         <h1>JavaScript with DOM</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque cum quibusdam voluptatem impedit totam tempora eum provident quis repudiandae nostrum?
@@ -34,10 +34,8 @@
         </ul>
         </section>
       
-        <section>
+        <section class="textcenter" id="edu-container ">
             <h1 id="bubt">Please like to visit this</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto velit enim numquam iure accusantium quam voluptas, culpa hic vero modi, error at et? Impedit illo vitae, mollitia debitis sapiente minima!</p>
-
             <ul>
                 <li class="edu-name">BUBT</li>
                 <li class="edu-name">NUT</li>
@@ -46,11 +44,23 @@
 
 
         </section>
+        <section id="places-container" class="large-text">
+            <h1 id="places-title"> Places I like to visit</h1>
+            <ul id="places-list">
+                <li class="inportant-places">Bandaerban</li>
+                <li class="inportant-places">Kataban</li>
+                <li class="inportant-places">soondarban</li>
+                <li class="other-palces">shalbon</li>
+            </ul>
+
+
+        </section>
 
 
     </main>
+    <script src="js/append.js"></script>
     <script src="js/script1.js"></script>
-    <script>
+    <!-- <script>
     //     const liCollection=document.getElementsByTagName('li');
     //     // console.log(liCollection);
     //     for(const allli of liCollection){
@@ -64,7 +74,7 @@
     for(const name1 of name){
         // console.log(name1.innerText);
     }
-    </script>
+    </script> -->
 </body>
 
 </html>
